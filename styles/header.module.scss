@@ -1,0 +1,30 @@
+.navbar-container {
+  justify-content: space-between;
+}
+
+.contact-now {
+  background-color: #000000;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.nav-items {
+  color: #000000;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  transition: 0.3s;
+}
+
+.nav-items:hover, .nav-items-open {
+  color: rgb(33, 147, 176);
+}
+
+@media (max-width: 990px) {
+  .navbar-container {
+    justify-content: center;
+  }
+
+  .nav-items {
+   display: none;
+  }
+}
